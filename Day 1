@@ -6,7 +6,7 @@ class Solution {
         Map<String, Integer> countMap = new HashMap<>();
         
         for (int[] row : matrix) {
-            StringBuilder sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder(); 
             StringBuilder complement = new StringBuilder();
             for (int num : row) {
                 sb.append(num);
